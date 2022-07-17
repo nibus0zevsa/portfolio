@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductrice</title>
+    <link rel="stylesheet" href="bebra.css">
+    
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">some text</a>
+        <ul>
+            <li><a href="#home" class="active" onclick="toggle()">Home</a></li>
+            <li><a href="#about" onclick="toggle()">About</a></li>
+            <li><a href="#service" onclick="toggle()">Service</a></li>
+            <li><a href="#portfolio" onclick="toggle()">Portfolio</a></li>
+            <li><a href="#team" onclick="toggle()">Team</a></li>
+            <li><a href="#contact" onclick="toggle()">Contact</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+    <section id="home">
+        <div>
+            <h2>Page Home</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet exercitationem maxime blanditiis quaerat,
+                harum ea numquam fuga ad deleniti, officia expedita dicta ullam aperiam aliquam iusto cumque
+                delectus ducimus facere.</p>
+                <a href="#">Read more</a>
+        </div>
+        <img src="webm.jpg">
+    </section>
+    <section id="about">
+        <div>
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet exercitationem maxime blanditiis quaerat,
+                harum ea numquam fuga ad deleniti, officia expedita dicta ullam aperiam aliquam iusto cumque
+                delectus ducimus facere.</p>
+        </div>
+    </section>
+    <section id="service">
+        <div>
+            <h2>Service</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet exercitationem maxime blanditiis quaerat,
+                harum ea numquam fuga ad deleniti, officia expedita dicta ullam aperiam aliquam iusto cumque
+                delectus ducimus facere.</p>
+                
+        </div>
+    </section>
+    <section id="portfolio">
+        <div>
+            <h2>Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet exercitationem maxime blanditiis quaerat,
+                harum ea numquam fuga ad deleniti, officia expedita dicta ullam aperiam aliquam iusto cumque
+                delectus ducimus facere.</p>
+
+                
+        </div>
+    </section>
+    <section id="team">
+        <div>
+            <h2>Team</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet exercitationem maxime blanditiis quaerat,
+                harum ea numquam fuga ad deleniti, officia expedita dicta ullam aperiam aliquam iusto cumque
+                delectus ducimus facere.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div>
+            <h2>Contact</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet exercitationem maxime blanditiis quaerat,
+                harum ea numquam fuga ad deleniti, officia expedita dicta ullam aperiam aliquam iusto cumque
+                delectus ducimus facere.</p>
+        </div>
+    </section>
+    <script type="text/javascript">
+        function toggle(){
+            var header = document.getElementById("header")
+            header.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
